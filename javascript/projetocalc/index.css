@@ -40,7 +40,11 @@ body {
 #numeros {
   width: 75%;
   display: flex;
-  flex-wrap: wrap;
+}
+
+#esquerda{
+    display: flex;
+    flex-direction: column;
 }
 
 #operadores {
@@ -76,7 +80,6 @@ button:hover {
 }
 
 button.zero {
-  width: calc(70px * 2 + 10px);
   border-radius: 35px;
   text-align: left;
   padding-left: 26px;
